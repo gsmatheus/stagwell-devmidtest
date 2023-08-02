@@ -1,65 +1,65 @@
 # stagwell-devmidtest
 
-O projeto é uma aplicação de linha de comando (CLI) desenvolvida em TypeScript que oferece um menu interativo para realizar várias operações matemáticas. O usuário pode escolher entre uma calculadora simples, encontrar números primos, calcular fatorial, verificar palíndromos, gerar tabelas de multiplicação, contar vogais, calcular média de notas e juros de investimentos. Com uma interface simples e amigável, o projeto permite que os usuários executem essas operações de maneira rápida e eficiente através do terminal.
+The project is a command-line application (CLI) developed in TypeScript that provides an interactive menu for performing various mathematical operations. Users can choose from a simple calculator, find prime numbers, calculate factorials, check for palindromes, generate multiplication tables, count vowels, calculate grade averages, and compute investment interests. With a simple and user-friendly interface, the project allows users to perform these operations quickly and efficiently through the terminal.
 
-## Instalação
+## Installation
 
-Para começar, você precisa ter o Node.js instalado em sua máquina. Acesse o site oficial do Node.js (https://nodejs.org/) e faça o download da versão recomendada para o seu sistema operacional. O Node.js inclui o npm (Node Package Manager), que será usado para instalar as dependências do projeto.
+To get started, you need to have Node.js installed on your machine. Visit the official Node.js website (https://nodejs.org/) and download the recommended version for your operating system. Node.js includes npm (Node Package Manager), which will be used to install the project's dependencies.
 
-### Instalando as dependências
+### Installing Dependencies
 
-Abra o terminal na pasta do projeto e execute um dos seguintes comandos, dependendo do gerenciador de pacotes que você deseja usar:
+Open the terminal in the project folder and run one of the following commands, depending on the package manager you want to use:
 
 ```bash
-# Usando npm
+# Using npm
 npm install
 
-# Usando yarn
+# Using yarn
 yarn install
 ```
 
-Isso irá instalar todas as dependências listadas no arquivo `package.json` e criar uma pasta `node_modules` com os pacotes necessários.
+This will install all the dependencies listed in the `package.json` file and create a `node_modules` folder with the necessary packages.
 
-## Testes
+## Testing
 
-O projeto possui uma suíte abrangente de testes para garantir a qualidade e a integridade das funcionalidades. Os testes são escritos utilizando uma biblioteca de testes apropriada para projetos TypeScript, garantindo a cobertura dos principais casos de uso.
+The project has a comprehensive suite of tests to ensure the quality and integrity of the functionalities. The tests are written using an appropriate testing library for TypeScript projects, ensuring coverage of the main use cases.
 
-Para executar os testes, utilize o seguinte comando:
+To run the tests, use the following command:
 
 ```bash
-# Usando npm
+# Using npm
 npm test
 
-# Usando yarn
+# Using yarn
 yarn test
 ```
 
-Isso executará os testes automatizados e exibirá os resultados no terminal. Certifique-se de que todos os testes estão passando antes de fazer modificações no código ou enviar alterações para o repositório. Os testes fornecem uma camada adicional de segurança e ajudam a evitar regressões em futuras atualizações.
+This will execute the automated tests and display the results in the terminal. Make sure all tests are passing before making changes to the code or pushing alterations to the repository. Tests provide an additional layer of safety and help prevent regressions in future updates.
 
-## Build do Projeto
+## Project Build
 
-Para construir o projeto, execute o seguinte comando:
+To build the project, run the following command:
 
 ```bash
-# Usando npm
+# Using npm
 npm run compile
 
-# Usando yarn
+# Using yarn
 yarn compile
 ```
 
-Este comando irá compilar o código TypeScript em JavaScript e colocá-lo na pasta de saída especificada no arquivo `tsconfig.json`. O projeto estará pronto para ser executado após a compilação.
+This command will compile the TypeScript code into JavaScript and place it in the output folder specified in the `tsconfig.json` file. The project will be ready to run after the compilation.
 
-## Executando o Projeto
+## Running the Project
 
-Após a instalação das dependências e a conclusão do build, você pode iniciar o projeto com o seguinte comando:
+After installing the dependencies and completing the build, you can start the project with the following command:
 
 ```bash
-# Usando npm
+# Using npm
 npm start
 
-# Usando yarn
+# Using yarn
 yarn start
 ```
 
-Isso iniciará a aplicação e exibirá o menu interativo no terminal. Você pode selecionar uma das opções disponíveis para realizar as operações matemáticas.
+This will start the application and display the interactive menu in the terminal. You can select one of the available options to perform the mathematical operations.
