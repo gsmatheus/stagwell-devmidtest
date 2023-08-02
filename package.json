@@ -10,9 +10,6 @@
     "clean": "gts clean",
     "compile": "tsc",
     "fix": "gts fix",
-    "prepare": "yarn.cmd run compile",
-    "pretest": "yarn.cmd run compile",
-    "posttest": "yarn.cmd run lint",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:cov": "jest --coverage"
